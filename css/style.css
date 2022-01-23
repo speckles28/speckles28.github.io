@@ -37,10 +37,20 @@
 }
 
 /* dark mode */
+.nav-dropdown--container {
+    position: fixed;
+    top:-75px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+
 .navigation_bar_dropdown {
-    display: none;
-    position: sticky;
-    top: 0;
+    /* display: none;
+    position: sticky; */
+    
+    display: flex;
+    
 }
 .navigation_bar_dropdown .nav-link {
     color: black;
